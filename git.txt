@@ -8,7 +8,7 @@ git reset --hard HEAD^ ：回退到上一个版本 git reset --hard HEAD~100 ：
 git reset --hard 版本号 ：回退到指定版本
 git reflog  ：获取到版本号
 cat readme.txt：查看
-
+在命令行进入仓库，输入gitk启动图形化软件
 本地的Gitfile仓库下运行命令：
 git remote add origin https://github.com/Blaze-x/Gitfile.git  ：同步
 
