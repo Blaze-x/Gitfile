@@ -1,0 +1,21 @@
+git init ：把这个目录变成git可以管理的仓库
+git add readme.txt ：添加到暂存区里面去
+git commit ：告诉Git，把文件提交到仓库
+git status来 ：查看是否还有文件未提交
+git diff readme.txt ：查看到底改了什么内容
+git log ：查看下历史记录 git log –pretty=oneline
+git reset --hard HEAD^ ：回退到上一个版本 git reset --hard HEAD~100 ：回退到上100个版本
+git reset --hard 版本号 ：回退到指定版本
+git reflog  ：获取到版本号
+cat readme.txt：查看
+
+本地的Gitfile仓库下运行命令：
+git remote add origin https://github.com/Blaze-x/Gitfile.git  ：同步
+
+git push -u origin master ：把本地仓库分支master内容推送到元仓库去
+使用命令git clone https://github.com/Blaze-x/Gitfile.git ：克隆为一个本地库
+git branch dev ：创建dev分支
+git checkout dev ：转到dev分支
+git checkout -b one ：创建并转到one分支
+git branch ：查看当前分支
+在master分支上，使用如下命令 git merge dev ：把dev分支上的内容合并到分支master上
